@@ -34,7 +34,7 @@ go_deps.module(
     sum = "h1:Xx0h3TtM9rzQpQuR4dKLrdglAmCEN5Oi+P74JdhdzXE=",
     version = "v0.29.0",
 )
-use_repo(go_deps, "com_github_grandcat_zeroconf", "com_github_inconshreveable_log15", "com_github_insomniacslk_dhcp", "com_github_mdlayher_ndp", "com_github_miekg_dns", "com_github_netsec_ethz_scion_apps", "com_github_pelletier_go_toml", "com_github_segmentio_fasthash", "com_github_stretchr_testify", "org_golang_x_net", "org_golang_x_sys", "org_golang_x_tools")
+use_repo(go_deps, "com_github_grandcat_zeroconf", "com_github_inconshreveable_log15", "com_github_insomniacslk_dhcp", "com_github_mdlayher_ndp", "com_github_miekg_dns", "com_github_pelletier_go_toml", "com_github_stretchr_testify", "org_golang_x_net", "org_golang_x_sys", "org_golang_x_tools")
 
 find_rpm = use_extension("@rules_pkg//toolchains/rpm:rpmbuild_configure.bzl", "find_system_rpmbuild_bzlmod")
 use_repo(find_rpm, "rules_pkg_rpmbuild")
